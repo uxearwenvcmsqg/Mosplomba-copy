@@ -1,0 +1,58 @@
+[
+	{
+			"title": "Одноразовые пломбы",
+			"children": [
+					{ "title": "Пластиковые номерные пломбы", "href": "/plomby/plastikovye-nomernye-plomby/" },
+					{ "title": "Пломбы тросовые (ЗПУ)", "href": "/plomby/plomby-trosovye/" },
+					{ "title": "Пломбы типа клещ", "href": "/plomby/plomb-power/" },
+					{ "title": "Роторные пломбы для счетчиков", "href": "/plomby/plomb-rotor/" },
+					{ "title": "Пломбы защелки для счетчиков", "href": "/plomby/plomb-fix/" },
+					{ "title": "Пломбы для огнетушителей", "href": "/plomby/plomb-fire/" },
+					{ "title": "Пломбы ленточные", "href": "/plomby/plomby-lent/" }
+			],
+			"img": "https://penal-plomba.ru/wa-data/public/shop/categories/cat21.jpg"
+	},
+	{
+			"title": "Пломбы для пломбиратора",
+			"children": [
+					{ "title": "Свинцовые пломбы", "href": "/plomby/plastikovye-nomernye-plomby/" },
+					{ "title": "Пломбы пластмассовые", "href": "/plomby/plomby-trosovye/" },
+					{ "title": "Пломбы алюминиевые", "href": "/plomby/plomb-power/" }
+			],
+			"img": "https://penal-plomba.ru/wa-data/public/shop/categories/cat28.jpg"
+	},
+	{
+			"title": "Пломбираторы",
+			"href": "/plombiratory/",
+			"img": "https://penal-plomba.ru/wa-data/public/shop/categories/cat18.png"
+	},
+	{
+			"title": "Опечатывающие устройства", 
+			"children": [
+					{ "title": "Наборы для опечатывания", "href": "/plomby/plastikovye-nomernye-plomby/" },
+					{ "title": "Опечатывающие устройства под шпагат", "href": "/plomby/plomby-trosovye/" },
+					{ "title": "Опечатывающие устройства флажкового типа", "href": "/plomby/plomb-power/" },
+					{ "title": "Свинцовые пломбы", "href": "/plomby/plastikovye-nomernye-plomby/" },
+					{ "title": "Опечатывающие устройства с откидным штоком", "href": "/plomby/plomby-trosovye/" },
+					{ "title": "Опечатывающие устройства штокового типа", "href": "/plomby/plomb-power/" },
+					{ "title": "Плашки для опечатывания", "href": "/plomby/plastikovye-nomernye-plomby/" },
+					{ "title": "Опечатывающие устройства сейфовые", "href": "/plomby/plomby-trosovye/" }
+			],
+			"img": "https://penal-plomba.ru/wa-data/public/shop/categories/cat19.jpg"
+	},
+	{
+			"title": "Сургучные печати",
+			"href": "/plombiratory/",
+			"img": "https://penal-plomba.ru/wa-data/public/shop/categories/cat16.jpg"
+	},
+	{
+			"title": "Поверительное клеймо",
+			"href": "/plombiratory/",
+			"img": "https://penal-plomba.ru/wa-data/public/shop/categories/cat135.jpg"
+	},
+	{
+			"title": "Материал для опломбирования",
+			"href": "/plombiratory/",
+			"img": "https://penal-plomba.ru/wa-data/public/shop/categories/cat49.jpg"
+	}
+]
