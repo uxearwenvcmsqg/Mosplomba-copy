@@ -7,23 +7,26 @@ import whatsAppLogo from '../../../../../public/whatsAppLogo.svg';
 
 function header() {
   return (
-    <header className="flex flex-row justify-between">
-      <img src="https://mosplomba.ru/local/templates/main/img/logo-top.webp" alt="" />
+    <header className="flex flex-row justify-between m-20">
+      <img src="https://mosplomba.ru/local/templates/main/img/logo-top.webp" alt="" width={320} />
       <Contact />
       <Email />
       <div>
         <Search />
-        <div>
+        <div className='flex flex-row gap-5'>
           <button>Войти</button>
           <button>Регистрация</button>
         </div>
-        <button>Корзина</button>
-        <img src={cartLogo} alt="cart-logo" />
-        <p>0 тов. на сумму 0 руб.</p>
+        <div className="flex flex-row gap-5 items-center">
+          <button>Корзина</button>
+          <img src={cartLogo} alt="cart-logo" />
+          <p>0 тов. на сумму 0 руб.</p>
+        </div>
+        <div className='flex flex-row items-center gap-5'>
+          <a href="https://web.whatsapp.com/">WHATSAPP</a>
+          <img src={whatsAppLogo} alt="" width={40} height={40} />
+        </div>
       </div>
-      <a href="https://web.whatsapp.com/">WHATSAPP</a>
-      <img src={whatsAppLogo} alt="" width={40} height={40} />
-      {/* <NavBar/> */}
     </header>
   );
 }
