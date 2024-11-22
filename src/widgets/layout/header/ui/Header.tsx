@@ -3,7 +3,7 @@ import { Email } from '../../../../entities/email/index';
 
 function header() {
   return (
-    <header className="">
+    <header className="flex flex-row">
       <img src="https://mosplomba.ru/local/templates/main/img/logo-top.webp" alt="" />
       <Contact />
       <Email />
