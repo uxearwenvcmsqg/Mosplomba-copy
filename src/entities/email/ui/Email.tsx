@@ -1,3 +1,5 @@
+import emailLogo from '../../../../public/email.svg';
+
 function Email() {
 	return (
 		<div>
@@ -8,6 +10,7 @@ function Email() {
 				</span>
 				<p>Москва, ул.Обручева, д. 34/63 стр.1</p>
 				<a href="">sales@mosplomba.ru</a>
+				<img src={emailLogo} alt="" width={40} height={40}/>
 			</div>
 	)
 }
