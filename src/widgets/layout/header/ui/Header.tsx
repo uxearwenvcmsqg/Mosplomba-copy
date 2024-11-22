@@ -3,7 +3,7 @@ import { Email } from '../../../../entities/email/index';
 import { Search } from '../../../../features/search/index';
 import cartLogo from '../../../../../public/cart.svg';
 import whatsAppLogo from '../../../../../public/whatsAppLogo.svg';
-// import { NavBar } from '../../../../entities/navBar/index';
+import { NavBar } from '../../../../entities/navBar/index';
 
 function header() {
   return (
@@ -13,7 +13,7 @@ function header() {
       <Email />
       <div>
         <Search />
-        <div className='flex flex-row gap-5'>
+        <div className="flex flex-row gap-5">
           <button>Войти</button>
           <button>Регистрация</button>
         </div>
@@ -22,11 +22,12 @@ function header() {
           <img src={cartLogo} alt="cart-logo" />
           <p>0 тов. на сумму 0 руб.</p>
         </div>
-        <div className='flex flex-row items-center gap-5'>
+        <div className="flex flex-row items-center gap-5">
           <a href="https://web.whatsapp.com/">WHATSAPP</a>
           <img src={whatsAppLogo} alt="" width={40} height={40} />
         </div>
       </div>
+      <NavBar />
     </header>
   );
 }
