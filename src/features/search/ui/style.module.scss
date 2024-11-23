@@ -1,0 +1,27 @@
+.top_search {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  position: relative;
+  border-bottom: 1px solid #d2d0d0;
+
+  &_input {
+    width: 100%;
+    padding-left: 22px;
+    background: transparent;
+    outline: none;
+    background-image: url(https://mosplomba.ru/local/templates/main/img/search.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+  }
+  &_submit {
+    font-family: "Roboto Regular", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    height: 100%;
+    cursor: pointer;
+    background: #ffffff;
+  }
+}
