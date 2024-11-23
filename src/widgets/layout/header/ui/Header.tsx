@@ -1,9 +1,10 @@
 import { Contact } from '../../../../entities/contact/index';
 import { Email } from '../../../../entities/email/index';
 import { Search } from '../../../../features/search/index';
+import { Link } from 'react-router-dom';
 import cartLogo from '../../../../../public/cart.svg';
 import whatsAppLogo from '../../../../../public/whatsAppLogo.svg';
-import { NavBar } from '../../../../entities/navBar/index';
+// import { NavBar } from '../../../../entities/navBar/index';
 
 function header() {
   return (
@@ -14,8 +15,12 @@ function header() {
       <div>
         <Search />
         <div className="flex flex-row gap-5">
+          <Link to='/Login'>
           <button>Войти</button>
-          <button>Регистрация</button>
+          </Link>
+          <Link to='/Signup'>
+            <button>Регистрация</button>
+          </Link>
         </div>
         <div className="flex flex-row gap-5 items-center">
           <button>Корзина</button>
@@ -27,7 +32,7 @@ function header() {
           <img src={whatsAppLogo} alt="" width={40} height={40} />
         </div>
       </div>
-      <NavBar />
+      {/* <NavBar /> */}
     </header>
   );
 }
