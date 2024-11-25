@@ -29,7 +29,9 @@ const SignUp = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-white shadow-md rounded-lg p-8 w-full max-w-md">
+      <div
+        style={{ backgroundColor: 'rgb(52 211 153)' }}
+        className="background-color: rgb(52 211 153); shadow-md rounded-lg p-8 w-full max-w-md">
         <h1 className="text-2xl font-bold text-center mb-6">Регистрация</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -61,8 +63,7 @@ const SignUp = () => {
           <button
             type="submit"
             className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300"
-            disabled={isLoading}
-          >
+            disabled={isLoading}>
             {isLoading ? 'Загрузка...' : 'Зарегистрироваться'}
           </button>
         </form>
