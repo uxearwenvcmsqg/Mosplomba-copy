@@ -14,7 +14,7 @@ const SignUp = () => {
     setIsLoading(true); // Показать индикатор загрузки
 
     try {
-      const response = await axiosInstance.post('/auth/register', {
+      const response = await axiosInstance.post('/auth/register/', {
         email,
         password,
       });

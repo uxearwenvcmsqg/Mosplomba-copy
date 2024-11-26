@@ -1,8 +1,8 @@
-import { Contact } from "../../../../entities/contact/index";
-import { Email } from "../../../../entities/email/index";
-import { Search } from "../../../../features/search/index";
-import whatsAppLogo from "../../../../../public/recall.png";
-import styles from "../ui/style.module.scss";
+import { Contact } from '../../../../entities/contact/index';
+import { Email } from '../../../../entities/email/index';
+import { Search } from '../../../../features/search/index';
+import whatsAppLogo from '../../../../../public/recall.png';
+import styles from '../ui/style.module.scss';
 
 function header() {
   return (

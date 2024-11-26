@@ -1,6 +1,5 @@
 import React, { ReactNode, useEffect, useState } from 'react';
 import axios from 'axios';
-
 import Carousel from './Carousel';
 import './Carousel.css';
 
