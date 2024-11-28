@@ -6,8 +6,8 @@ import styles from "../ui/style.module.scss";
 
 function header() {
   return (
-    <header className="flex w-[100%] py-[2%] px-[3%] justify-between items-center">
-      <div className={styles.divider}>
+    <header className="flex w-[100%] py-[2%] justify-between items-center">
+      <div className={`${styles.divider} justify-start cursor-pointer`}>
         <img
           src="https://mosplomba.ru/local/templates/main/img/logo-top.webp"
           alt=""

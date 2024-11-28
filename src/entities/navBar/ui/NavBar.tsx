@@ -1,4 +1,5 @@
 // import { Link } from 'react-router-dom';
+import styles from "../ui/navbar.module.scss";
 
 function NavBar() {
   const NavItem = [
@@ -20,11 +21,13 @@ function NavBar() {
   ];
 
   return (
-    <div>
-      <ul className="flex flex-row justify-between mx-80">
-        {NavItem.map((elem) => (
-          <li>
-            <a href={elem.href}>{elem.title}</a>
+    <div className={`${styles.navbar}`}>
+      <ul className={`${styles.navbar_nav}`}>
+        {NavItem.map((elem, index) => (
+          <li className={styles.navbar_nav_item}>
+            <a key={index} href={elem.href}>
+              {elem.title}
+            </a>
           </li>
         ))}
       </ul>

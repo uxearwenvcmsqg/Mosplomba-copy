@@ -1,11 +1,11 @@
-import { Header } from '../../../widgets/layout/header/index';
-import { Slider } from '../../../features/slider/index';
-import { NavBar } from '../../../entities/navBar';
+import { Header } from "../../../widgets/layout/header/index";
+import { Slider } from "../../../features/slider/index";
+import { NavBar } from "../../../entities/navBar";
 function Home() {
   return (
-    <div className="justify-center ">
+    <div className="px-[5vw] ">
       <Header />
-      <NavBar/>
+      <NavBar />
       <Slider />
     </div>
   );
