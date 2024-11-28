@@ -1,0 +1,64 @@
+.top {
+  display: flex;
+  justify-content: end;
+  padding: 7px 0 0 0;
+
+  font-weight: 500;
+  &_enter {
+    text-transform: uppercase;
+    color: #000000;
+    padding-left: 25px;
+    padding-right: 10px;
+    font-size: 17px;
+    background-image: url(https://mosplomba.ru/local/templates/main/img/enter.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+  }
+
+  &_reg {
+    background-image: none;
+    color: #d3160a;
+    padding-left: 10px;
+    font-size: 17px;
+    border-left: 1px solid #000000;
+    text-transform: uppercase;
+  }
+}
+
+.top_basket {
+  display: flex;
+  justify-content: end;
+  &_main {
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #d3160a;
+    padding-right: 25px;
+    background-image: url(https://mosplomba.ru/local/templates/main/img/basket.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+  }
+
+  &_desc {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 15px;
+    color: #6a6969;
+    padding-left: 10px;
+    white-space: nowrap;
+  }
+}
+
+.link {
+  color: #c70a05;
+  font-family: "Roboto Regular", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-bottom: 1px dotted #c70a05;
+  padding-bottom: 3px;
+
+  &:hover {
+    color: #c70a05;
+    text-decoration: none;
+    border-bottom: 1px solid #c70a05;
+    cursor: pointer;
+  }
+}
