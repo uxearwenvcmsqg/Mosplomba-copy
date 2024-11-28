@@ -1,1 +1,1 @@
-export const baseUrl = 'http://38.180.37.241/swagger/?format=openapi';
+export const baseUrl = 'http://38.180.37.241';
