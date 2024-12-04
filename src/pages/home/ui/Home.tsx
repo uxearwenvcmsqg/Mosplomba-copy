@@ -1,12 +1,16 @@
-import { Header } from '../../../widgets/layout/header/index';
+import Layout from '../../../app/Layout';
 import { Slider } from '../../../features/slider/index';
-import { NavBar } from '../../../entities/navBar';
+import {Catalog} from '../../../widgets/Catalog/index'
+
 function Home() {
   return (
     <div className="justify-center ">
-      <Header />
-      <NavBar/>
-      <Slider />
+      <Layout>
+        <div>
+          <Slider />
+          <Catalog/>
+        </div>
+      </Layout>
     </div>
   );
 }

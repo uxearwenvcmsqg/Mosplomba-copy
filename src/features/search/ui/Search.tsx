@@ -2,7 +2,7 @@ import styles from "../ui/style.module.scss";
 
 function Search() {
   return (
-    <form action="/search/index.php" className={styles.top_search}>
+    <form className={styles.top_search}>
       <input
         aria-label="Search"
         id="title-search-input"

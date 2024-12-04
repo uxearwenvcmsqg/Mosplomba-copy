@@ -1,4 +1,3 @@
-// Login.tsx
 import React, { useState, useEffect } from 'react';
 import axiosInstance from '../../../../shared/api/axiosIstance';
 import { AxiosError } from 'axios';
@@ -15,7 +14,7 @@ const Login = () => {
     setIsLoading(true); // Показать индикатор загрузки
 
     try {
-      const response = await axiosInstance.post('/auth/login', {
+      const response = await axiosInstance.post('/auth/login/', {
         email,
         password,
       });

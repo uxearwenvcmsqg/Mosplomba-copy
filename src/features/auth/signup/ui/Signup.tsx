@@ -1,4 +1,3 @@
-// SignUp.tsx
 import React, { useState } from 'react';
 import axiosInstance from '../../../../shared/api/axiosIstance';
 import { AxiosError } from 'axios';
@@ -14,7 +13,7 @@ const SignUp = () => {
     setIsLoading(true); // Показать индикатор загрузки
 
     try {
-      const response = await axiosInstance.post('/auth/register/', {
+      const response = await axiosInstance.post('/auth/login/', {
         email,
         password,
       });
